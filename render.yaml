@@ -2,7 +2,7 @@ services:
   - type: web
     name: song-manager-backend
     env: node
-    runtime: nodejs18-x
+    runtime: nodejs18
     buildCommand: npm install
     startCommand: npm start
     envVars:
