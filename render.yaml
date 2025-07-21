@@ -1,13 +1,1 @@
-services:
-  - type: web
-    name: song-manager-backend
-    env: node
-    buildCommand: npm install
-    startCommand: npm start
-    envVars:
-      - key: MONGODB_URI
-        value: mongodb+srv://hawiabdi1994:VGWVzULJMXXxCumc@songs.makmqyt.mongodb.net/?retryWrites=true&w=majority&appName=songs
-      - key: PORT
-        value: 5000
-      - key: MAX_FILE_SIZE
-        value: 10485760
+
